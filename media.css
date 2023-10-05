@@ -1,0 +1,712 @@
+@media (max-width: 376px) {
+    * {
+        width: 100%;
+    }
+    .section-p1{
+        padding: 20px ;
+    }
+    #header {
+        padding: 10px 30px;
+    }
+    h1{
+        font-size: 38px;
+    }
+    h2{
+        font-size: 32px;
+    }
+
+
+    /*Hero Page*/
+    #hero {
+        padding: 0 5px;
+        background-position: 55%;
+    }
+    #hero h2,
+    #hero h3{
+        display: flex;
+        text-align: center;
+    }
+    #production h2{
+        display: flex;
+        text-align: center;
+    }
+    #product {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #feature {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    #feature .fe-box {
+        width: 200px;
+        margin: 0 0 15px 0;
+    }
+    #company-info{
+        display: flex;
+        text-align: center;
+        padding: 0 10px;
+        flex-wrap: nowrap;
+    }
+    .image-info{
+        padding: 0 5px;
+        background-position: 55%;
+        overflow: hidden;
+    }
+    .image-info img{
+        width: 300px;
+    }
+    .text-info h2{
+        padding-left: 50px;
+    }
+    .fixed-link{
+        right: 20px;
+        bottom: 20px;
+        position: fixed;
+    }
+    #bulk-product{
+        margin-bottom:120px;
+    }
+    #bulk-product {
+        overflow: hidden;
+    }
+    footer .copyright {
+        padding-top: 0px;
+    }
+    footer {
+        height: 83vh;
+        padding: 0;
+        align-content: center;
+    }
+
+    footer p {
+        padding-top: 20px;
+    }
+
+
+    /*Service Page*/
+    .services-offer{
+        padding: 0 5px;
+    }
+    #textile-printing {
+        flex-direction: column-reverse;
+        padding: 0 15px;
+    }
+    #textile-printing {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 5rem auto 0 auto;
+    }
+
+    #garment-printing {
+        padding: 0 15px;
+    }
+
+    #dyeing-services {
+        padding: 0 15px;
+    }
+
+    #fabric-merchant {
+        padding: 0 15px;
+    }
+
+    #fabric-merchant img {
+        height: 350px;
+        width: 500px;
+        padding-left: 0px;
+        padding-bottom: 50px;
+        padding-right: 0px;
+    }
+
+    /*Blog Page*/
+    #blog{
+        padding: 100px 20px 0 20px;
+    }
+
+    #blog .blog-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #blog .blog-img {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    #blog .blog-details {
+        width: 100%;
+    }
+
+ 
+    /*ABOUT PAGE*/
+    #about-head {
+        flex-direction: column;
+    }
+    #about-head img {
+        width: 100%;
+    }
+    #about-head div {
+        padding-left: 0px;
+    }
+    #about-app .video {
+        width: 100%;
+    }
+
+    /*Contact Page*/
+    #contact-details .section-p1 {
+        padding: 40px 40px;
+    }
+    #contact-details {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #contact-details .details {
+        width: 100%;
+    }
+    #contact-details .map {
+        width: 100%;
+    }
+    #form-details {
+        margin: 10px;
+        padding: 30px 10px;
+        flex-wrap: wrap;
+    }
+    #form-details form {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 413px){
+    *{
+        width: auto;
+    }
+    #hero h2,
+    #hero h3{
+        display: flex;
+        text-align: center;
+    }
+    #production h2{
+        display: flex;
+        text-align: center;
+    }
+    #product {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #designs h2{
+        display: flex;
+        text-align: center;
+    }
+    .company-info{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width: 542px){
+    *{
+        width: auto;
+    }
+
+}
+
+@media (max-width: 668px){
+    * {
+        width: auto;
+    }
+    #hero h2,
+    #hero h3{
+        display: flex;
+        text-align: center;
+    }
+    #production h2{
+        display: flex;
+        text-align: center;
+    }
+    #designs h2{
+        display: flex;
+        text-align: center;
+    }
+    footer{
+        height: 80vh;
+    }
+}
+
+
+@media (max-width: 768px) {
+    * {
+        width: auto;
+    }
+
+    .section-p1 {
+        padding: 30px 20px 10px 20px;
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 200px;
+        background-color: #f9ebd1;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+    }
+
+    #navbar.active {
+        right: 0px;
+    }
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+    }
+    #mobile i {
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 120px;
+    }
+
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+    }
+
+    #hero {
+        padding-bottom: 40px;
+        background-position: top 30% right 30%;
+    }
+
+    .background a button {
+        padding: 13px 50px 13px;
+    }
+
+    .box {
+        margin-bottom: 20px;
+        border: 5px solid white;
+        height: 375px;
+    }
+
+    #product {
+        flex-wrap: nowrap;
+        padding: 15px 15px;
+    }
+
+    #feature {
+        justify-content: space-evenly;
+    }
+
+    .company-info {
+        display: flex;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        flex-direction: column;
+    }
+
+    .image-info {
+        margin-bottom: 20px;
+    }
+
+    .text-info {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .text-info h2 {
+        padding-left: 120px;
+        padding-bottom: 20px;
+    }
+
+    .text-info p,
+    .text-info strong {
+        padding: 20px;
+    }
+
+    .bulk-product-image {
+        overflow: hidden;
+
+        padding: 50px;
+    }
+    #bulk-product-text {
+        padding-left: 40px;
+    }
+    footer .copyright {
+        padding-top: 0px;
+    }
+    footer {
+        height: 53vh;
+        padding: 0;
+        align-content: center;
+
+    }
+    footer p {
+        padding-top: 20px;
+    }
+
+/* SERVICES PAGE */
+    #services-details h2 {
+        padding-bottom: 0px;
+    }
+    #textile-printing {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 5rem auto 0 auto;
+    }
+    #textile-printing img {
+        padding-bottom: 50px;
+        height: 350px;
+        width: 500px;
+        padding-left: 0px;
+    }
+    #garment-printing {
+        margin: 5rem auto 0 auto;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    #garment-printing img {
+        padding-bottom: 50px;
+        height: 350px;
+        width: 500px;
+        padding-right: 0px;
+    }
+    #dyeing-services {
+        margin: 5rem auto 0 auto;
+        flex-direction: column-reverse;
+    }
+    #dyeing-services img {
+        height: 350px;
+        width: 500px;
+        padding-left: 0px;
+        padding-bottom: 50px;
+    }
+
+    #fabric-merchant {
+        flex-direction: column;
+        padding: 0 50px;
+        margin: 5rem auto 0 auto;
+        padding-bottom: 50px;
+    }
+
+    #fabric-merchant img {
+        height: 350px;
+        width: 500px;
+        padding-left: 0px;
+        padding-bottom: 50px;
+        padding-right: 0px;
+    }
+
+/* ABOUT PAGE */
+    #about-head img {
+    height: 400px;
+    }
+
+    #about-company {
+        margin-top: 50px;
+    }
+
+    #about-team {
+        margin-top: 80px;
+        padding-bottom: 80px;
+    }
+
+/* BLOG PAGE */
+
+    #blog .blog-box {
+        flex-direction: column;
+        padding-bottom: 110px;
+    }
+    
+    #blog img {
+        width: 400px;
+    }
+
+    #blog .blog-img {
+        width: 60%;
+        margin-right: 120px;
+    }
+
+    #blog .blog-details {
+        width: 90%;
+    }
+    
+    #page-header {
+        align-items: center;
+    }
+
+
+/* CONTACT PAGE */
+    #contact-details {
+        padding-bottom: 80px;
+    }
+   
+}
+
+@media (max-width: 910px) {
+
+    /* HOME PAGE */
+        *{
+            width: auto;
+        }
+    
+        .background {
+            overflow: hidden;
+        }
+    
+        #feature {
+            justify-content: space-around;
+        }
+    
+        .company-info {
+            flex-direction: column;
+        }
+    
+        .text-info {
+            padding: 50px;
+        }
+    
+        .text-info h2 , .text-info h5 , .text-info p , .text-info ul{
+            text-align: center;
+        }
+    
+        .image-info {
+            padding-bottom: 50px;
+        }
+    
+        #product {
+            justify-content: space-around;
+            border: 5px solid white;
+        }
+    
+        .box{
+            border: 10px solid white;
+            height: 385px;
+        }
+    
+        .bulk-product-image {
+            padding-left: 0px;
+            overflow: hidden;
+            
+        }
+    
+        #bulk-product-text {
+            padding-left: 10px;
+        }
+    
+        footer{
+            height: 85vh;
+        }
+        /* SERVICES PAGE */
+
+    #textile-printing , #dyeing-services {
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    #textile-printing h3 , #dyeing-services h3{
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    #textile-printing img , #dyeing-services img{
+        height: 290px;
+        padding-left: 0;
+    }
+
+    #garment-printing , #fabric-merchant{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #garment-printing h3 , #fabric-merchant h3{
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    #garment-printing img , #fabric-merchant img{
+        height: 290px;
+        padding-right: 0;
+    }
+    /* ABOUT PAGE */
+    #about-head img {
+        height: 400px;
+    }
+    }
+
+
+
+    @media (max-width: 1100px) {
+
+        *{
+            width: auto;
+        }
+    
+        .bulk-product-image {
+            padding-left: 0;
+            overflow: hidden;
+        }
+    
+        .background {
+            overflow: hidden;
+        }
+    
+        #feature .fe-box {
+            width: 350px;
+            height: 280px
+        }
+    
+        #bulk-product-text {
+            padding-left: 225px;
+        }
+    
+        .company-info {
+            flex-direction: column;
+        }
+        .image-info {
+            margin-right: 0em;
+            padding-left: 0px;
+            padding-bottom: 50px;
+        }
+    
+        .text-info h2 , .text-info h5 , .text-info p , .text-info ul  {
+            text-align: center;
+            padding-right: 0;
+        }
+    
+        #textile-printing , #dyeing-services {
+            align-items: center;
+            flex-direction: column-reverse;
+        }
+    
+        #textile-printing h3 , #dyeing-services h3{
+            text-align: center;
+            padding-top: 20px;
+        }
+    
+        #textile-printing img , #dyeing-services img{
+            height: 290px;
+            padding-left: 0;
+        }
+    
+        #garment-printing , #fabric-merchant{
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        #garment-printing h3 , #fabric-merchant h3{
+            text-align: center;
+            padding-top: 20px;
+        }
+    
+        #garment-printing img , #fabric-merchant img{
+            height: 290px;
+            padding-right: 0;
+        }
+    
+        #page-header h2{
+            text-align: left;
+        }
+    }
+
+
+    @media (max-width: 1230px) {
+
+        *{
+            width: auto;
+        }
+    
+        .bulk-product-image {
+            padding-left: 140px;
+            overflow: hidden;
+        }
+    
+        #feature{
+            justify-content: space-around;
+        }
+    
+        #feature .fe-box {
+            padding: 20px;
+            width: 400px;
+            height: 320px;
+        }
+    
+        #feature .fe-box h6 {
+            font-size: 20px;
+            padding: 18px 16px 18px 16px;
+        }
+    
+        .background {
+            overflow: hidden;
+        }
+    
+        #bulk-product-text {
+            padding-left: 225px;
+        }
+    
+        .company-info {
+            flex-direction: column;
+        }
+        .image-info {
+            margin-right: 0em;
+            padding-left: 0px;
+            padding-bottom: 50px;
+        }
+    
+        .text-info h2 , .text-info h5 , .text-info p , .text-info ul  {
+            text-align: center;
+            padding-right: 0;
+        }
+    
+        #textile-printing , #dyeing-services {
+            align-items: center;
+            flex-direction: column-reverse;
+        }
+    
+        #textile-printing h3 , #dyeing-services h3{
+            text-align: center;
+            padding-top: 20px;
+        }
+    
+        #textile-printing img , #dyeing-services img{
+            height: 290px;
+            padding-left: 0;
+        }
+    
+        #garment-printing , #fabric-merchant{
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        #garment-printing h3 , #fabric-merchant h3{
+            text-align: center;
+            padding-top: 20px;
+        }
+    
+        #garment-printing img , #fabric-merchant img{
+            height: 290px;
+            padding-right: 0;
+        }
+    
+        #page-header h2{
+            text-align: left;
+        }
+    }
